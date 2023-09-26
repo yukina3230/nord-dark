@@ -1,0 +1,21 @@
+{
+  "name": "nord-dark",
+  "displayName": "Nord Dark",
+  "description": "Darker version of Nord theme, inspired by Nord Deep.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nord Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nord Dark-color-theme.json"
+      }
+    ]
+  }
+}
