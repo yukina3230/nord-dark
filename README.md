@@ -4,10 +4,10 @@ This is a fork of [Nord](https://marketplace.visualstudio.com/items?itemName=arc
 
 ## Screenshots
 
-![](assets/1.png)
+![](https://raw.githubusercontent.com/yukina3230/nord-dark/main/assets/1.png)
 
-![](assets/2.png)
+![](https://raw.githubusercontent.com/yukina3230/nord-dark/main/assets/2.png)
 
-![](assets/4.png)
+![](https://raw.githubusercontent.com/yukina3230/nord-dark/main/assets/4.png)
 
-![](assets/5.png)
+![](https://raw.githubusercontent.com/yukina3230/nord-dark/main/assets/5.png)
