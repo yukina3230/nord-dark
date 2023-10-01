@@ -4,7 +4,7 @@
   "description": "Darker version of Nord theme, inspired by Nord Deep.",
   "repository": "https://github.com/yukina3230/nord-dark",
   "publisher": "Yukina",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.82.0"
