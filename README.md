@@ -1,6 +1,6 @@
 # Nord Dark Theme
 
-This is a fork of [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code) theme, mixed with darker colors of [Nord Deep](https://marketplace.visualstudio.com/items?itemName=marlosirapuan.nord-deep).
+Dark theme based on [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code) and [Nord Deep](https://marketplace.visualstudio.com/items?itemName=marlosirapuan.nord-deep), focus on readability.
 
 ## Screenshots
 
