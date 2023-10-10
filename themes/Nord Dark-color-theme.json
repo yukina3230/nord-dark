@@ -358,7 +358,7 @@
 			"name": "Constant Numeric",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#bf616a"
+				"foreground": "#b48ead"
 			}
 		},
 		{
@@ -425,21 +425,21 @@
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#5e81ac"
+				"foreground": "#8fbcbb"
 			}
 		},
 		{
 			"name": "Keyword Operator",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#5e81ac"
+				"foreground": "#8fbcbb"
 			}
 		},
 		{
 			"name": "Keyword Other New",
 			"scope": "keyword.other.new",
 			"settings": {
-				"foreground": "#5e81ac"
+				"foreground": "#8fbcbb"
 			}
 		},
 		{
@@ -639,7 +639,7 @@
 			"name": "Variable",
 			"scope": "variable.other",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -655,14 +655,14 @@
 			"name": "Variable Language",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
 			"name": "Variable Parameter",
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
