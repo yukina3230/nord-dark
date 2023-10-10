@@ -375,14 +375,14 @@
 				"entity.name.type.class"
 			],
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#a3be8c"
 			}
 		},
 		{
 			"name": "Entity Name Function",
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#ebcb8b"
 			}
 		},
 		{
@@ -425,21 +425,21 @@
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#5e81ac"
 			}
 		},
 		{
 			"name": "Keyword Operator",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#5e81ac"
 			}
 		},
 		{
 			"name": "Keyword Other New",
 			"scope": "keyword.other.new",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#5e81ac"
 			}
 		},
 		{
@@ -555,7 +555,7 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#a3be8c"
+				"foreground": "#d08770"
 			}
 		},
 		{
@@ -583,14 +583,14 @@
 			"name": "Support Function",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#ebcb8b"
 			}
 		},
 		{
 			"name": "Support Function Construct",
 			"scope": "support.function.construct",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#ebcb8b"
 			}
 		},
 		{
@@ -639,7 +639,7 @@
 			"name": "Variable",
 			"scope": "variable.other",
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#81a1c1"
 			}
 		},
 		{
@@ -662,7 +662,7 @@
 			"name": "Variable Parameter",
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#81a1c1"
 			}
 		},
 		{
