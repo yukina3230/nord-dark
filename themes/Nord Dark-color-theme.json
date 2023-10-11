@@ -442,7 +442,7 @@
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -456,14 +456,14 @@
 			"name": "Keyword Operator",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
 			"name": "Keyword Other New",
 			"scope": "keyword.other.new",
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -663,7 +663,7 @@
 			"name": "Variable",
 			"scope": "variable.other",
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#81a1c1"
 			}
 		},
 		{
@@ -679,14 +679,14 @@
 			"name": "Variable Language",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#81a1c1"
 			}
 		},
 		{
 			"name": "Variable Parameter",
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#81a1c1"
 			}
 		},
 		{
