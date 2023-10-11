@@ -91,7 +91,7 @@
 		"editorIndentGuide.activeBackground1": "#616e88",
 		"editorIndentGuide.background1": "#616e8866",
 		"editorInlayHint.background": "#292d38",
-		"editorInlayHint.foreground": "#81a1c166",
+		"editorInlayHint.foreground": "#81a1c199",
 		"editorLineNumber.activeForeground": "#d8dee9",
 		"editorLineNumber.dimmedForeground": "#616e887e",
 		"editorLineNumber.foreground": "#616e88",
@@ -358,7 +358,7 @@
 			"name": "Constant Numeric",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#b48ead"
+				"foreground": "#bf616a"
 			}
 		},
 		{
@@ -379,10 +379,27 @@
 			}
 		},
 		{
+			"name": "Entity Name Interface/Type",
+			"scope": [
+				"entity.name.interface",
+				"entity.name.type.interface"
+			],
+			"settings": {
+				"foreground": "#a3be8c"
+			}
+		},
+		{
 			"name": "Entity Name Function",
 			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#ebcb8b"
+			}
+		},
+		{
+			"name": "Entity Name Namespace",
+			"scope": "entity.name.namespace",
+			"settings": {
+				"foreground": "#a3be8c"
 			}
 		},
 		{
@@ -426,6 +443,13 @@
 			"scope": "keyword",
 			"settings": {
 				"foreground": "#8fbcbb"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword.control",
+			"settings": {
+				"foreground": "#b48ead"
 			}
 		},
 		{
