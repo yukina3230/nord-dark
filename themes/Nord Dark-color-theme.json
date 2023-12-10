@@ -358,7 +358,7 @@
 			"name": "Constant Numeric",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#bf616a"
+				"foreground": "#ebcb8b"
 			}
 		},
 		{
@@ -456,7 +456,7 @@
 			"name": "Keyword Operator",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -505,7 +505,7 @@
 			"name": "Punctuation",
 			"scope": "punctuation",
 			"settings": {
-				"foreground": "#eceff4"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -516,14 +516,14 @@
 				"punctuation.definition.parameters"
 			],
 			"settings": {
-				"foreground": "#eceff4"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
 			"name": "Punctuation Definition Tag",
 			"scope": "punctuation.definition.tag",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -541,7 +541,7 @@
 			"name": "Punctuation Section",
 			"scope": "punctuation.section",
 			"settings": {
-				"foreground": "#eceff4"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -551,28 +551,28 @@
 				"punctuation.section.embedded.end"
 			],
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
 			"name": "Punctuation Terminator",
 			"scope": "punctuation.terminator",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
 			"name": "Punctuation Variable",
 			"scope": "punctuation.definition.variable",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -663,7 +663,7 @@
 			"name": "Variable",
 			"scope": "variable.other",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -679,14 +679,14 @@
 			"name": "Variable Language",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
 			"name": "Variable Parameter",
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
