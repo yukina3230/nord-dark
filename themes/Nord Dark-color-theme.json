@@ -389,6 +389,26 @@
 			}
 		},
 		{
+			"name": "Entity Name Enum/Type",
+			"scope": [
+				"entity.name.enum",
+				"entity.name.type.enum"
+			],
+			"settings": {
+				"foreground": "#a3be8c"
+			}
+		},
+		{
+			"name": "Entity Name Parameter/Type",
+			"scope": [
+				"entity.name.parameter",
+				"entity.name.type.parameter"
+			],
+			"settings": {
+				"foreground": "#a3be8c"
+			}
+		},
+		{
 			"name": "Entity Name Function",
 			"scope": "entity.name.function",
 			"settings": {
