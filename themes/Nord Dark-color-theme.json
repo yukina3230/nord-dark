@@ -871,6 +871,20 @@
 			}
 		},
 		{
+			"name": "[Go] Punctuation Definition String Begin",
+			"scope": "source.go punctuation.definition.string.begin.go",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[Go] Punctuation Definition String End",
+			"scope": "source.go punctuation.definition.string.end.go",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
 			"name": "[Java](JavaDoc) Comment Block Documentation HTML Entities",
 			"scope": "source.java comment.block.documentation.javadoc punctuation.definition.entity.html",
 			"settings": {
