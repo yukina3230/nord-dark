@@ -764,10 +764,31 @@
 			}
 		},
 		{
+			"name": "[CSS] Punctuation Definition Constant",
+			"scope": "source.css punctuation.definition.constant.css",
+			"settings": {
+				"foreground": "#b48ead"
+			}
+		},
+		{
 			"name": "[CSS] Punctuation Definition Keyword",
 			"scope": "source.css punctuation.definition.keyword",
 			"settings": {
 				"foreground": "#81a1c1"
+			}
+		},
+		{
+			"name": "[CSS] Punctuation Definition String Begin",
+			"scope": "source.css punctuation.definition.string.begin.css",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[CSS] Punctuation Definition String End",
+			"scope": "source.css punctuation.definition.string.end.css",
+			"settings": {
+				"foreground": "#d08770"
 			}
 		},
 		{
@@ -1090,6 +1111,20 @@
 			"scope": "text.html.basic punctuation.definition.entity",
 			"settings": {
 				"foreground": "#81a1c1"
+			}
+		},
+		{
+			"name": "[HTML] Punctuation Definition String Begin",
+			"scope": "punctuation.definition.string.begin.html",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[HTML] Punctuation Definition String End",
+			"scope": "punctuation.definition.string.end.html",
+			"settings": {
+				"foreground": "#d08770"
 			}
 		},
 		{
