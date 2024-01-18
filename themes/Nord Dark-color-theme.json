@@ -1085,6 +1085,34 @@
 			}
 		},
 		{
+			"name": "[JSON] Punctuation Support Type Property-Name Begin",
+			"scope": "source.json punctuation.support.type.property-name.begin.json",
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[JSON] Punctuation Support Type Property-Name End",
+			"scope": "source.json punctuation.support.type.property-name.end.json",
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[JSON] Punctuation Support Type String Begin",
+			"scope": "source.json punctuation.definition.string.begin.json",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[JSON] Punctuation Support Type String End",
+			"scope": "source.json punctuation.definition.string.end.json",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
 			"name": "[HTML] Constant Character Entity",
 			"scope": "text.html.basic constant.character.entity.html",
 			"settings": {
@@ -1115,14 +1143,14 @@
 		},
 		{
 			"name": "[HTML] Punctuation Definition String Begin",
-			"scope": "punctuation.definition.string.begin.html",
+			"scope": "text.html.derivative punctuation.definition.string.begin.html",
 			"settings": {
 				"foreground": "#d08770"
 			}
 		},
 		{
 			"name": "[HTML] Punctuation Definition String End",
-			"scope": "punctuation.definition.string.end.html",
+			"scope": "text.html.derivative punctuation.definition.string.end.html",
 			"settings": {
 				"foreground": "#d08770"
 			}
@@ -1362,6 +1390,34 @@
 			}
 		},
 		{
+			"name": "[Shellscript] Constant Other Option",
+			"scope": "source.shell constant.other.option",
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[Shellscript] Constant Other Option Dash",
+			"scope": "source.shell constant.other.option.dash.shell",
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[Shellscript] Punctuation Definition String Begin",
+			"scope": "source.shell punctuation.definition.string.begin.shell",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[Shellscript] Punctuation Definition String End",
+			"scope": "source.shell punctuation.definition.string.end.shell",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
 			"name": "[SCSS] Punctuation Definition Interpolation Bracket Curly",
 			"scope": [
 				"source.css.scss punctuation.definition.interpolation.begin.bracket.curly",
@@ -1487,6 +1543,20 @@
 			}
 		},
 		{
+			"name": "[XML] Punctuation Definition String Begin",
+			"scope": "text.xml punctuation.definition.string.begin.xml",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[XML] Punctuation Definition String End",
+			"scope": "text.xml punctuation.definition.string.end.xml",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
 			"name": "[XML] Entity Name Tag Namespace",
 			"scope": [
 				"text.xml string.unquoted.cdata",
@@ -1498,10 +1568,38 @@
 			}
 		},
 		{
+			"name": "[AXAML] Punctuation Definition String Begin",
+			"scope": "source.AXAML punctuation.definition.string.begin.xml",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[AXAML] Punctuation Definition String End",
+			"scope": "source.AXAML punctuation.definition.string.end.xml",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
 			"name": "[YAML] Entity Name Tag",
 			"scope": "source.yaml entity.name.tag",
 			"settings": {
 				"foreground": "#8fbcbb"
+			}
+		},
+		{
+			"name": "[YAML] Punctuation Definition String Begin",
+			"scope": "source.yaml punctuation.definition.string.begin.yaml",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[YAML] Punctuation Definition String End",
+			"scope": "source.yaml punctuation.definition.string.end.yaml",
+			"settings": {
+				"foreground": "#d08770"
 			}
 		}
 	]
