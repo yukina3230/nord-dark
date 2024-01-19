@@ -799,6 +799,13 @@
 			}
 		},
 		{
+			"name": "[Dart] String Interpolated Expression",
+			"scope": "source.dart string.interpolated.expression.dart",
+			"settings": {
+				"foreground": "#d8dee9"
+			}
+		},
+		{
 			"name": "[diff] Meta Range Context",
 			"scope": "source.diff meta.diff.range.context",
 			"settings": {
