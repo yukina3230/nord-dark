@@ -224,6 +224,8 @@
 		"scrollbarSlider.background": "#434c5e99",
 		"scrollbarSlider.hoverBackground": "#434c5eaa",
 		"selection.background": "#88c0d099",
+		"settings.modifiedItemIndicator": "#88c0d0",
+		"settings.settingsHeaderHoverForeground": "#eceff4",
 		"sideBar.background": "#14171d",
 		"sideBar.border": "#3b4252",
 		"sideBar.foreground": "#d8dee9",
@@ -761,6 +763,29 @@
 			],
 			"settings": {
 				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[CSS] Keyword Other Unit",
+			"scope": [
+				"source.css keyword.other.unit.cm.css",
+				"source.css keyword.other.unit.mm.css",
+				"source.css keyword.other.unit.in.css",
+				"source.css keyword.other.unit.px.css",
+				"source.css keyword.other.unit.pt.css",
+				"source.css keyword.other.unit.pc.css",
+				"source.css keyword.other.unit.em.css",
+				"source.css keyword.other.unit.ex.css",
+				"source.css keyword.other.unit.ch.css",
+				"source.css keyword.other.unit.rem.css",
+				"source.css keyword.other.unit.vw.css",
+				"source.css keyword.other.unit.vh.css",
+				"source.css keyword.other.unit.vmin.css",
+				"source.css keyword.other.unit.vmax.css",
+				"source.css keyword.other.unit.%.css"
+			],
+			"settings": {
+				"foreground": "#ebcb8b"
 			}
 		},
 		{
