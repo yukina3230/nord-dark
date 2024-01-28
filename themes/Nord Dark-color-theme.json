@@ -1216,13 +1216,20 @@
 			}
 		},
 		{
+			"name": "[Markdown] Markup Bold",
+			"scope": "text.html.markdown markup.bold",
+			"settings": {
+				"foreground": "#81a1c1"
+			}
+		},
+		{
 			"name": "[Markdown] Markup Fenced Code Block",
 			"scope": [
 				"text.html.markdown markup.fenced_code.block",
 				"text.html.markdown markup.fenced_code.block punctuation.definition"
 			],
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1239,7 +1246,7 @@
 				"text.html.markdown markup.inline.raw punctuation.definition.raw"
 			],
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#d08770"
 			}
 		},
 		{
@@ -1309,8 +1316,15 @@
 			}
 		},
 		{
-			"name": "[Markdown] Punctuation Definition Heading",
-			"scope": "text.html.markdown punctuation.definition.heading",
+			"name": "[Markdown] Meta Paragraph",
+			"scope": "text.html.markdown meta.paragraph",
+			"settings": {
+				"foreground": "#d8dee9"
+			}
+		},
+		{
+			"name": "[Markdown] Punctuation Definition Bold",
+			"scope": "text.html.markdown punctuation.definition.bold",
 			"settings": {
 				"foreground": "#81a1c1"
 			}
@@ -1326,6 +1340,27 @@
 			}
 		},
 		{
+			"name": "[Markdown] Punctuation Definition Heading",
+			"scope": "text.html.markdown punctuation.definition.heading",
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[Markdown] Punctuation Definition List Begin",
+			"scope": "text.html.markdown punctuation.definition.list.begin.markdown",
+			"settings": {
+				"foreground": "#81a1c1"
+			}
+		},
+		{
+			"name": "[Markdown] Punctuation Definition Quote Begin",
+			"scope": "text.html.markdown punctuation.definition.quote.begin.markdown",
+			"settings": {
+				"foreground": "#a3be8c"
+			}
+		},
+		{
 			"name": "[Markdown] String Other Link Description/Title",
 			"scope": [
 				"text.html.markdown constant.other.reference.link",
@@ -1333,7 +1368,7 @@
 				"text.html.markdown string.other.link.title"
 			],
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#d08770"
 			}
 		},
 		{
