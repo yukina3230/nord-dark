@@ -1159,6 +1159,13 @@
 			}
 		},
 		{
+			"name": "[GDasset] Punctuation Definition String Quoted Double",
+			"scope": "source.gdasset punctuation.definition.string.quoted.double.gdasset",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
 			"name": "[HTML] Constant Character Entity",
 			"scope": "text.html.basic constant.character.entity.html",
 			"settings": {
@@ -1213,6 +1220,20 @@
 			"scope": "source.properties punctuation.separator.key-value.ini",
 			"settings": {
 				"foreground": "#81a1c1"
+			}
+		},
+		{
+			"name": "[Lua] Punctuation Definition String Begin",
+			"scope": "source.lua punctuation.definition.string.begin.lua",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[Lua] Punctuation Definition String End",
+			"scope": "source.lua punctuation.definition.string.end.lua",
+			"settings": {
+				"foreground": "#d08770"
 			}
 		},
 		{
