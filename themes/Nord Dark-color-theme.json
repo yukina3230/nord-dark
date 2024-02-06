@@ -1713,9 +1713,9 @@
 		},
 		{
 			"name": "[YAML] Entity Name Tag",
-			"scope": "source.yaml entity.name.tag",
+			"scope": "source.yaml entity.name.tag.yaml",
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
