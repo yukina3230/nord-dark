@@ -353,14 +353,14 @@
 			"name": "Constant Language",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
 			"name": "Constant Numeric",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#ebcb8b"
+				"foreground": "#8fbcbb"
 			}
 		},
 		{
@@ -1101,7 +1101,7 @@
 			"name": "[JavaScript] Support Type Primitive",
 			"scope": "source.js support.type.primitive",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#8fbcbb"
 			}
 		},
 		{
@@ -1134,14 +1134,14 @@
 			"name": "[JSON] Punctuation Support Type Property-Name Begin",
 			"scope": "source.json punctuation.support.type.property-name.begin.json",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
 			"name": "[JSON] Punctuation Support Type Property-Name End",
 			"scope": "source.json punctuation.support.type.property-name.end.json",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1156,6 +1156,13 @@
 			"scope": "source.json punctuation.definition.string.end.json",
 			"settings": {
 				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[JSON] Support Type Property-Name",
+			"scope": "source.json support.type.property-name.json",
+			"settings": {
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1534,6 +1541,27 @@
 			"scope": "source.css.scss variable.interpolation",
 			"settings": {
 				"fontStyle": "italic",
+				"foreground": "#d8dee9"
+			}
+		},
+		{
+			"name": "[TOML] Support Type Property-Name",
+			"scope": "source.toml support.type.property-name.toml",
+			"settings": {
+				"foreground": "#d8dee9"
+			}
+		},
+		{
+			"name": "[TOML] Support Type Property-Name Array",
+			"scope": "source.toml support.type.property-name.array.toml",
+			"settings": {
+				"foreground": "#d8dee9"
+			}
+		},
+		{
+			"name": "[TOML] Support Type Property-Name Table",
+			"scope": "source.toml support.type.property-name.table.toml",
+			"settings": {
 				"foreground": "#d8dee9"
 			}
 		},
