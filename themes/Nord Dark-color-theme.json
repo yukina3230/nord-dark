@@ -179,7 +179,7 @@
 		"merge.incomingHeaderBackground": "#8fbcbb66",
 		"minimap.background": "#1d2129",
 		"minimap.errorHighlight": "#bf616acc",
-		"minimap.findMatchHighlight": "#88c0d0",
+		"minimap.findMatchHighlight": "#88c0d0cc",
 		"minimap.selectionHighlight": "#88c0d0cc",
 		"minimap.warningHighlight": "#ebcb8bcc",
 		"minimapGutter.addedBackground": "#a3be8c",
@@ -236,7 +236,7 @@
 		"statusBar.background": "#1d2129",
 		"statusBar.border": "#3b4252",
 		"statusBar.debuggingBackground": "#5e81acaa",
-		"statusBar.debuggingForeground": "#d8dee9",
+		"statusBar.debuggingForeground": "#eceff4",
 		"statusBar.foreground": "#d8dee9",
 		"statusBar.noFolderBackground": "#1d2129",
 		"statusBar.noFolderForeground": "#d8dee9",
@@ -1474,7 +1474,7 @@
 				"source.rust meta.attribute keyword.operator"
 			],
 			"settings": {
-				"foreground": "#5e81ac"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
