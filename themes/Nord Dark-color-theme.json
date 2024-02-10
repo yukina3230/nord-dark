@@ -803,15 +803,11 @@
 			}
 		},
 		{
-			"name": "[CSS] Punctuation Definition String Begin",
-			"scope": "source.css punctuation.definition.string.begin.css",
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[CSS] Punctuation Definition String End",
-			"scope": "source.css punctuation.definition.string.end.css",
+			"name": "[CSS] Punctuation Definition String",
+			"scope": [
+				"source.css punctuation.definition.string.begin.css",
+				"source.css punctuation.definition.string.end.css"
+			],
 			"settings": {
 				"foreground": "#d08770"
 			}
@@ -903,15 +899,11 @@
 			}
 		},
 		{
-			"name": "[Go] Punctuation Definition String Begin",
-			"scope": "source.go punctuation.definition.string.begin.go",
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[Go] Punctuation Definition String End",
-			"scope": "source.go punctuation.definition.string.end.go",
+			"name": "[Go] Punctuation Definition String",
+			"scope": [
+				"source.go punctuation.definition.string.begin.go",
+				"source.go punctuation.definition.string.end.go"
+			],
 			"settings": {
 				"foreground": "#d08770"
 			}
@@ -1131,29 +1123,21 @@
 			}
 		},
 		{
-			"name": "[JSON] Punctuation Support Type Property-Name Begin",
-			"scope": "source.json punctuation.support.type.property-name.begin.json",
+			"name": "[JSON] Punctuation Support Type Property-Name",
+			"scope": [
+				"source.json punctuation.support.type.property-name.begin.json",
+				"source.json punctuation.support.type.property-name.end.json"
+			],
 			"settings": {
 				"foreground": "#d8dee9"
 			}
 		},
 		{
-			"name": "[JSON] Punctuation Support Type Property-Name End",
-			"scope": "source.json punctuation.support.type.property-name.end.json",
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[JSON] Punctuation Support Type String Begin",
-			"scope": "source.json punctuation.definition.string.begin.json",
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[JSON] Punctuation Support Type String End",
-			"scope": "source.json punctuation.definition.string.end.json",
+			"name": "[JSON] Punctuation Support Type String",
+			"scope": [
+				"source.json punctuation.definition.string.begin.json",
+				"source.json punctuation.definition.string.end.json"
+			],
 			"settings": {
 				"foreground": "#d08770"
 			}
@@ -1202,15 +1186,11 @@
 			}
 		},
 		{
-			"name": "[HTML] Punctuation Definition String Begin",
-			"scope": "text.html.derivative punctuation.definition.string.begin.html",
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[HTML] Punctuation Definition String End",
-			"scope": "text.html.derivative punctuation.definition.string.end.html",
+			"name": "[HTML] Punctuation Definition String",
+			"scope": [
+				"text.html.derivative punctuation.definition.string.begin.html",
+				"text.html.derivative punctuation.definition.string.end.html"
+			],
 			"settings": {
 				"foreground": "#d08770"
 			}
@@ -1230,15 +1210,11 @@
 			}
 		},
 		{
-			"name": "[Lua] Punctuation Definition String Begin",
-			"scope": "source.lua punctuation.definition.string.begin.lua",
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[Lua] Punctuation Definition String End",
-			"scope": "source.lua punctuation.definition.string.end.lua",
+			"name": "[Lua] Punctuation Definition String",
+			"scope": [
+				"source.lua punctuation.definition.string.begin.lua",
+				"source.lua punctuation.definition.string.end.lua"
+			],
 			"settings": {
 				"foreground": "#d08770"
 			}
@@ -1247,7 +1223,8 @@
 			"name": "[Markdown] Markup Bold",
 			"scope": "text.html.markdown markup.bold",
 			"settings": {
-				"foreground": "#81a1c1"
+				"fontStyle": "bold",
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -1281,7 +1258,8 @@
 			"name": "[Markdown] Markup Italic",
 			"scope": "text.html.markdown markup.italic",
 			"settings": {
-				"fontStyle": "italic"
+				"fontStyle": "italic",
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -1320,16 +1298,6 @@
 			}
 		},
 		{
-			"name": "[Markdown] Markup Math Definition Marker",
-			"scope": [
-				"text.html.markdown punctuation.definition.math.begin",
-				"text.html.markdown punctuation.definition.math.end"
-			],
-			"settings": {
-				"foreground": "#5e81ac"
-			}
-		},
-		{
 			"name": "[Markdown] Markup Math Function Definition Marker",
 			"scope": "text.html.markdown punctuation.definition.function.math.tex",
 			"settings": {
@@ -1344,6 +1312,13 @@
 			}
 		},
 		{
+			"name": "[Markdown] Meta Embedded Block Katex",
+			"scope": "text.html.markdown meta.embedded.block.katex",
+			"settings": {
+				"foreground": "#d8dee9"
+			}
+		},
+		{
 			"name": "[Markdown] Meta Paragraph",
 			"scope": "text.html.markdown meta.paragraph",
 			"settings": {
@@ -1354,15 +1329,19 @@
 			"name": "[Markdown] Punctuation Definition Bold",
 			"scope": "text.html.markdown punctuation.definition.bold",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[Markdown] Punctuation Definition Italic",
+			"scope": "text.html.markdown punctuation.definition.italic",
+			"settings": {
+				"foreground": "#88c0d0"
 			}
 		},
 		{
 			"name": "[Markdown] Punctuation Definition Constant/String",
-			"scope": [
-				"text.html.markdown punctuation.definition.constant",
-				"text.html.markdown punctuation.definition.string"
-			],
+			"scope": "text.html.markdown punctuation.definition.constant",
 			"settings": {
 				"foreground": "#81a1c1"
 			}
@@ -1378,7 +1357,14 @@
 			"name": "[Markdown] Punctuation Definition List Begin",
 			"scope": "text.html.markdown punctuation.definition.list.begin.markdown",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[Markdown] Punctuation Definition Math Display",
+			"scope": "text.html.markdown punctuation.definition.math.display.markdown",
+			"settings": {
+				"foreground": "#a3be8c"
 			}
 		},
 		{
@@ -1386,6 +1372,16 @@
 			"scope": "text.html.markdown punctuation.definition.quote.begin.markdown",
 			"settings": {
 				"foreground": "#a3be8c"
+			}
+		},
+		{
+			"name": "[Markdown] Punctuation Definition String",
+			"scope": [
+				"text.html.markdown punctuation.definition.string.begin.markdown",
+				"text.html.markdown punctuation.definition.string.end.markdown"
+			],
+			"settings": {
+				"foreground": "#d08770"
 			}
 		},
 		{
@@ -1513,15 +1509,11 @@
 			}
 		},
 		{
-			"name": "[Shellscript] Punctuation Definition String Begin",
-			"scope": "source.shell punctuation.definition.string.begin.shell",
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[Shellscript] Punctuation Definition String End",
-			"scope": "source.shell punctuation.definition.string.end.shell",
+			"name": "[Shellscript] Punctuation Definition String",
+			"scope": [
+				"source.shell punctuation.definition.string.begin.shell",
+				"source.shell punctuation.definition.string.end.shell"
+			],
 			"settings": {
 				"foreground": "#d08770"
 			}
@@ -1673,15 +1665,11 @@
 			}
 		},
 		{
-			"name": "[XML] Punctuation Definition String Begin",
-			"scope": "text.xml punctuation.definition.string.begin.xml",
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[XML] Punctuation Definition String End",
-			"scope": "text.xml punctuation.definition.string.end.xml",
+			"name": "[XML] Punctuation Definition String",
+			"scope": [
+				"text.xml punctuation.definition.string.begin.xml",
+				"text.xml punctuation.definition.string.end.xml"
+			],
 			"settings": {
 				"foreground": "#d08770"
 			}
@@ -1698,15 +1686,11 @@
 			}
 		},
 		{
-			"name": "[AXAML] Punctuation Definition String Begin",
-			"scope": "source.AXAML punctuation.definition.string.begin.xml",
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[AXAML] Punctuation Definition String End",
-			"scope": "source.AXAML punctuation.definition.string.end.xml",
+			"name": "[AXAML] Punctuation Definition String",
+			"scope": [
+				"source.AXAML punctuation.definition.string.begin.xml",
+				"source.AXAML punctuation.definition.string.end.xml"
+			],
 			"settings": {
 				"foreground": "#d08770"
 			}
@@ -1719,15 +1703,11 @@
 			}
 		},
 		{
-			"name": "[YAML] Punctuation Definition String Begin",
-			"scope": "source.yaml punctuation.definition.string.begin.yaml",
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[YAML] Punctuation Definition String End",
-			"scope": "source.yaml punctuation.definition.string.end.yaml",
+			"name": "[YAML] Punctuation Definition String",
+			"scope": [
+				"source.yaml punctuation.definition.string.begin.yaml",
+				"source.yaml punctuation.definition.string.end.yaml"
+			],
 			"settings": {
 				"foreground": "#d08770"
 			}
