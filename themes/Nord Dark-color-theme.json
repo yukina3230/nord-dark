@@ -443,7 +443,7 @@
 			"scope": "entity.other.inherited-class",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#8fbcbb"
+				"foreground": "#a3be8c"
 			}
 		},
 		{
@@ -615,7 +615,7 @@
 			"name": "Support Class",
 			"scope": "support.class",
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#a3be8c"
 			}
 		},
 		{
@@ -742,6 +742,13 @@
 			}
 		},
 		{
+			"name": "[CSharp] Variable Language This",
+			"scope": "source.cs variable.language.this.cs",
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
 			"name": "[CSS] Constant Other Color RGB Value",
 			"scope": "source.css constant.other.color.rgb-value",
 			"settings": {
@@ -815,6 +822,20 @@
 		{
 			"name": "[CSS] Support Type Property Name",
 			"scope": "source.css support.type.property-name",
+			"settings": {
+				"foreground": "#d8dee9"
+			}
+		},
+		{
+			"name": "[Dart] Storage Modifier",
+			"scope": "source.dart storage.modifier.dart",
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[Dart] Storage Type Annotation",
+			"scope": "source.dart storage.type.annotation.dart",
 			"settings": {
 				"foreground": "#d8dee9"
 			}
@@ -995,6 +1016,16 @@
 			}
 		},
 		{
+			"name": "[Java] Punctuation Definition String",
+			"scope": [
+				"source.java punctuation.definition.string.begin.java",
+				"source.java punctuation.definition.string.end.java"
+			],
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
 			"name": "[Java] Storage Modifier Import",
 			"scope": "source.java storage.modifier.import",
 			"settings": {
@@ -1012,28 +1043,35 @@
 			"name": "[Java] Storage Type",
 			"scope": "source.java storage.type",
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#a3be8c"
 			}
 		},
 		{
 			"name": "[Java] Storage Type Annotation",
 			"scope": "source.java storage.type.annotation",
 			"settings": {
-				"foreground": "#d08770"
+				"foreground": "#a3be8c"
 			}
 		},
 		{
 			"name": "[Java] Storage Type Generic",
 			"scope": "source.java storage.type.generic",
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#a3be8c"
 			}
 		},
 		{
 			"name": "[Java] Storage Type Primitive",
 			"scope": "source.java storage.type.primitive",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#a3be8c"
+			}
+		},
+		{
+			"name": "[Java] Variable Language This",
+			"scope": "source.java variable.language.this.java",
+			"settings": {
+				"foreground": "#88c0d0"
 			}
 		},
 		{
