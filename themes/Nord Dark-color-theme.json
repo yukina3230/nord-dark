@@ -48,7 +48,6 @@
 		"editor.findMatchBackground": "#5e81ac4d",
 		"editor.findMatchHighlightBackground": "#5e81ac33",
 		"editor.findRangeHighlightBackground": "#5e81ac33",
-		"editor.focusedStackFrameHighlightBackground": "#5e81ac",
 		"editor.foreground": "#d8dee9",
 		"editor.inactiveSelectionBackground": "#434c5ecc",
 		"editor.inlineValuesBackground": "#4c566a",
