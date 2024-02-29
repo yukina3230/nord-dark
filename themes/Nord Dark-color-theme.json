@@ -427,14 +427,14 @@
 			"name": "Entity Name Tag",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
 			"name": "Entity Other Attribute Name",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -456,7 +456,7 @@
 			"name": "Invalid Illegal",
 			"scope": "invalid.illegal",
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#bf616a"
 			}
 		},
 		{
@@ -748,10 +748,20 @@
 			}
 		},
 		{
-			"name": "[CSS] Constant Other Color RGB Value",
-			"scope": "source.css constant.other.color.rgb-value",
+			"name": "[CSS] Constant Color",
+			"scope": [
+				"source.css constant.other.color.rgb-value",
+				"source.css support.constant.color.w3c-extended-color-name"
+			],
 			"settings": {
-				"foreground": "#b48ead"
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[CSS] Constant Numeric",
+			"scope": "source.css constant.numeric",
+			"settings": {
+				"foreground": "#8fbcbb"
 			}
 		},
 		{
@@ -791,7 +801,7 @@
 				"source.css keyword.other.unit.%.css"
 			],
 			"settings": {
-				"foreground": "#ebcb8b"
+				"foreground": "#8fbcbb"
 			}
 		},
 		{
@@ -1079,6 +1089,18 @@
 				"source.js punctuation.decorator",
 				"source.js meta.decorator variable.other.readwrite",
 				"source.js meta.decorator entity.name.function"
+			],
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[JavaScript] Punctuation Definition String",
+			"scope": [
+				"source.js punctuation.definition.string.begin",
+				"source.js punctuation.definition.string.end",
+				"source.jsx punctuation.definition.string.begin",
+				"source.jsx punctuation.definition.string.end"
 			],
 			"settings": {
 				"foreground": "#d08770"
@@ -1609,6 +1631,18 @@
 			}
 		},
 		{
+			"name": "[TypeScript] Punctuation Definition String",
+			"scope": [
+				"source.ts punctuation.definition.string.begin",
+				"source.ts punctuation.definition.string.end",
+				"source.tsx punctuation.definition.string.begin",
+				"source.tsx punctuation.definition.string.end"
+			],
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
 			"name": "[TypeScript] Object-literal keys",
 			"scope": [
 				"source.ts meta.object-literal.key",
@@ -1681,13 +1715,6 @@
 			}
 		},
 		{
-			"name": "[XML] Entity Name Tag Namespace",
-			"scope": "text.xml entity.name.tag.namespace",
-			"settings": {
-				"foreground": "#8fbcbb"
-			}
-		},
-		{
 			"name": "[XML] Keyword Other Doctype",
 			"scope": "text.xml keyword.other.doctype",
 			"settings": {
@@ -1696,7 +1723,7 @@
 		},
 		{
 			"name": "[XML] Meta Tag Preprocessor",
-			"scope": "text.xml meta.tag.preprocessor entity.name.tag",
+			"scope": "text.xml meta.tag.preprocessor",
 			"settings": {
 				"foreground": "#5e81ac"
 			}
