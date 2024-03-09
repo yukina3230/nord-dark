@@ -254,6 +254,7 @@
 		"statusBarItem.warningForeground": "#2e3440",
 		"statusBarItem.warningHoverBackground": "#ebcb8b",
 		"statusBarItem.warningHoverForeground": "#2e3440",
+		"editorStickyScrollHover.background": "#434c5e66",
 		"tab.activeBackground": "#1d2129",
 		"tab.activeBorder": "#1d2129",
 		"tab.activeBorderTop": "#88c0d0",
