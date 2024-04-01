@@ -566,6 +566,16 @@
 			}
 		},
 		{
+			"name": "Punctuation Definition String",
+			"scope": [
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end"
+			],
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
 			"name": "Punctuation Section",
 			"scope": "punctuation.section",
 			"settings": {
@@ -737,14 +747,14 @@
 		{
 			"name": "[C/CPP] Conditional Directive",
 			"scope": [
-				"source.cpp keyword.control.directive.conditional",
-				"source.cpp punctuation.definition.directive",
-				"source.c keyword.control.directive.conditional",
-				"source.c punctuation.definition.directive"
+				"source.cpp keyword.control.directive.conditional.cpp",
+				"source.cpp punctuation.definition.directive.cpp",
+				"source.c keyword.control.directive.conditional.c",
+				"source.c punctuation.definition.directive.c"
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#5e81ac"
+				"foreground": "#b48ead"
 			}
 		},
 		{
@@ -823,16 +833,6 @@
 			"scope": "source.css punctuation.definition.keyword",
 			"settings": {
 				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[CSS] Punctuation Definition String",
-			"scope": [
-				"source.css punctuation.definition.string.begin.css",
-				"source.css punctuation.definition.string.end.css"
-			],
-			"settings": {
-				"foreground": "#d08770"
 			}
 		},
 		{
@@ -936,16 +936,6 @@
 			}
 		},
 		{
-			"name": "[Go] Punctuation Definition String",
-			"scope": [
-				"source.go punctuation.definition.string.begin.go",
-				"source.go punctuation.definition.string.end.go"
-			],
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
 			"name": "[Java](JavaDoc) Comment Block Documentation HTML Entities",
 			"scope": "source.java comment.block.documentation.javadoc punctuation.definition.entity.html",
 			"settings": {
@@ -1032,16 +1022,6 @@
 			}
 		},
 		{
-			"name": "[Java] Punctuation Definition String",
-			"scope": [
-				"source.java punctuation.definition.string.begin.java",
-				"source.java punctuation.definition.string.end.java"
-			],
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
 			"name": "[Java] Storage Modifier Import",
 			"scope": "source.java storage.modifier.import",
 			"settings": {
@@ -1096,18 +1076,6 @@
 				"source.js punctuation.decorator",
 				"source.js meta.decorator variable.other.readwrite",
 				"source.js meta.decorator entity.name.function"
-			],
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[JavaScript] Punctuation Definition String",
-			"scope": [
-				"source.js punctuation.definition.string.begin",
-				"source.js punctuation.definition.string.end",
-				"source.jsx punctuation.definition.string.begin",
-				"source.jsx punctuation.definition.string.end"
 			],
 			"settings": {
 				"foreground": "#d08770"
@@ -1199,16 +1167,6 @@
 			}
 		},
 		{
-			"name": "[JSON] Punctuation Support Type String",
-			"scope": [
-				"source.json punctuation.definition.string.begin.json",
-				"source.json punctuation.definition.string.end.json"
-			],
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
 			"name": "[JSON] Support Type Property-Name",
 			"scope": "source.json support.type.property-name.json",
 			"settings": {
@@ -1252,16 +1210,6 @@
 			}
 		},
 		{
-			"name": "[HTML] Punctuation Definition String",
-			"scope": [
-				"text.html.derivative punctuation.definition.string.begin.html",
-				"text.html.derivative punctuation.definition.string.end.html"
-			],
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
 			"name": "[INI] Entity Name Section Group-Title",
 			"scope": "source.properties entity.name.section.group-title.ini",
 			"settings": {
@@ -1273,16 +1221,6 @@
 			"scope": "source.properties punctuation.separator.key-value.ini",
 			"settings": {
 				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[Lua] Punctuation Definition String",
-			"scope": [
-				"source.lua punctuation.definition.string.begin.lua",
-				"source.lua punctuation.definition.string.end.lua"
-			],
-			"settings": {
-				"foreground": "#d08770"
 			}
 		},
 		{
@@ -1441,16 +1379,6 @@
 			}
 		},
 		{
-			"name": "[Markdown] Punctuation Definition String",
-			"scope": [
-				"text.html.markdown punctuation.definition.string.begin.markdown",
-				"text.html.markdown punctuation.definition.string.end.markdown"
-			],
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
 			"name": "[Markdown] String Other Link Description/Title",
 			"scope": [
 				"text.html.markdown constant.other.reference.link",
@@ -1575,16 +1503,6 @@
 			}
 		},
 		{
-			"name": "[Shellscript] Punctuation Definition String",
-			"scope": [
-				"source.shell punctuation.definition.string.begin.shell",
-				"source.shell punctuation.definition.string.end.shell"
-			],
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
 			"name": "[SCSS] Punctuation Definition Interpolation Bracket Curly",
 			"scope": [
 				"source.css.scss punctuation.definition.interpolation.begin.bracket.curly",
@@ -1600,16 +1518,6 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[SQL] Punctuation Definition String",
-			"scope": [
-				"source.sql punctuation.definition.string.begin",
-				"source.sql punctuation.definition.string.end"
-			],
-			"settings": {
-				"foreground": "#d08770"
 			}
 		},
 		{
@@ -1642,18 +1550,6 @@
 				"source.tsx punctuation.decorator",
 				"source.tsx meta.decorator variable.other.readwrite",
 				"source.tsx meta.decorator entity.name.function"
-			],
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[TypeScript] Punctuation Definition String",
-			"scope": [
-				"source.ts punctuation.definition.string.begin",
-				"source.ts punctuation.definition.string.end",
-				"source.tsx punctuation.definition.string.begin",
-				"source.tsx punctuation.definition.string.end"
 			],
 			"settings": {
 				"foreground": "#d08770"
@@ -1742,17 +1638,7 @@
 			"name": "[XML] Meta Tag Preprocessor",
 			"scope": "text.xml meta.tag.preprocessor",
 			"settings": {
-				"foreground": "#5e81ac"
-			}
-		},
-		{
-			"name": "[XML] Punctuation Definition String",
-			"scope": [
-				"text.xml punctuation.definition.string.begin.xml",
-				"text.xml punctuation.definition.string.end.xml"
-			],
-			"settings": {
-				"foreground": "#d08770"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1767,30 +1653,10 @@
 			}
 		},
 		{
-			"name": "[AXAML] Punctuation Definition String",
-			"scope": [
-				"source.AXAML punctuation.definition.string.begin.xml",
-				"source.AXAML punctuation.definition.string.end.xml"
-			],
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
 			"name": "[YAML] Entity Name Tag",
 			"scope": "source.yaml entity.name.tag.yaml",
 			"settings": {
 				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[YAML] Punctuation Definition String",
-			"scope": [
-				"source.yaml punctuation.definition.string.begin.yaml",
-				"source.yaml punctuation.definition.string.end.yaml"
-			],
-			"settings": {
-				"foreground": "#d08770"
 			}
 		}
 	]
