@@ -364,14 +364,14 @@
 			"name": "Constant Language",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#b48ead"
 			}
 		},
 		{
 			"name": "Constant Numeric",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -783,7 +783,7 @@
 			"name": "[CSS] Constant Numeric",
 			"scope": "source.css constant.numeric",
 			"settings": {
-				"foreground": "#8fbcbb"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
