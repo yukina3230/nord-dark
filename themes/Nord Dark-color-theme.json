@@ -848,6 +848,13 @@
 			}
 		},
 		{
+			"name": "[Dart] Meta Embedded Expression",
+			"scope": "source.dart meta.embedded.expression.dart",
+			"settings": {
+				"foreground": "#d8dee9"
+			}
+		},
+		{
 			"name": "[Dart] Storage Modifier",
 			"scope": "source.dart storage.modifier.dart",
 			"settings": {
@@ -1115,7 +1122,7 @@
 			"name": "[JavaScript] Interpolated String Template Punctuation Functions",
 			"scope": "source.js string.quoted.template meta.method-call.with-arguments",
 			"settings": {
-				"foreground": "#eceff4"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1158,7 +1165,7 @@
 				"source.js string.quoted.template meta.brace.round"
 			],
 			"settings": {
-				"foreground": "#eceff4"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1629,7 +1636,7 @@
 				"source.tsx meta.embedded.line meta.brace.round"
 			],
 			"settings": {
-				"foreground": "#eceff4"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
