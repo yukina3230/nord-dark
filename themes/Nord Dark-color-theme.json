@@ -364,14 +364,14 @@
 			"name": "Constant Language",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#b48ead"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
 			"name": "Constant Numeric",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#ebcb8b"
 			}
 		},
 		{
@@ -722,7 +722,7 @@
 			"name": "Variable Language",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
