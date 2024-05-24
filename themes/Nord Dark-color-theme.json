@@ -490,7 +490,7 @@
 			"name": "Keyword Operator",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1504,7 +1504,7 @@
 				"source.rust meta.attribute keyword.operator"
 			],
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
