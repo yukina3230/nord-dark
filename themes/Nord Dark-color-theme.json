@@ -64,7 +64,7 @@
 		"editor.lineHighlightBorder": "#434c5eaa",
 		"editor.rangeHighlightBackground": "#434c5eaa",
 		"editor.selectionBackground": "#5e81ac99",
-		"editor.selectionHighlightBackground": "#5e81ac99",
+		"editor.selectionHighlightBackground": "#5e81ac33",
 		"editor.selectionHighlightBorder": "#5e81ac",
 		"editor.wordHighlightBackground": "#5e81ac33",
 		"editor.wordHighlightBorder": "#5e81ac",
@@ -480,7 +480,7 @@
 			}
 		},
 		{
-			"name": "Keyword",
+			"name": "Keyword Control",
 			"scope": "keyword.control",
 			"settings": {
 				"foreground": "#b48ead"
@@ -490,7 +490,7 @@
 			"name": "Keyword Operator",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -707,6 +707,14 @@
 			"name": "Variable",
 			"scope": "variable.other",
 			"settings": {
+				"foreground": "#d8dee9"
+			}
+		},
+		{
+			"name": "Variable Constant",
+			"scope": "variable.other.constant",
+			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#d8dee9"
 			}
 		},
@@ -1103,7 +1111,7 @@
 				"source.js meta.decorator entity.name.function"
 			],
 			"settings": {
-				"foreground": "#d08770"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1496,7 +1504,7 @@
 				"source.rust meta.attribute keyword.operator"
 			],
 			"settings": {
-				"foreground": "#d8dee9"
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -1591,7 +1599,7 @@
 				"source.tsx meta.decorator entity.name.function"
 			],
 			"settings": {
-				"foreground": "#d08770"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1642,6 +1650,36 @@
 			],
 			"settings": {
 				"foreground": "#81a1c1"
+			}
+		},
+		{
+			"name": "[TypeScript] Storage Modifier",
+			"scope": [
+				"source.ts storage.modifier",
+				"source.tsx storage.modifier"
+			],
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[TypeScript] Storage Type",
+			"scope": [
+				"source.ts storage.type",
+				"source.tsx storage.type"
+			],
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[TypeScript] Storage Type Function Arrow",
+			"scope": [
+				"source.ts storage.type.function.arrow",
+				"source.tsx storage.type.function.arrow"
+			],
+			"settings": {
+				"foreground": "#d8dee9"
 			}
 		},
 		{
