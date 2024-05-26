@@ -1493,7 +1493,7 @@
 			"scope": "source.rust meta.macro entity.name.function",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#88c0d0"
+				"foreground": "#ebcb8b"
 			}
 		},
 		{
@@ -1511,7 +1511,8 @@
 			"name": "[Rust] Traits",
 			"scope": "source.rust entity.name.type.trait",
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#a3be8c"
 			}
 		},
 		{
@@ -1531,6 +1532,13 @@
 		{
 			"name": "[Rust] Storage Modifier Mut",
 			"scope": "source.rust storage.modifier.mut",
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[Rust] Storage Type",
+			"scope": "source.rust storage.type",
 			"settings": {
 				"foreground": "#88c0d0"
 			}
