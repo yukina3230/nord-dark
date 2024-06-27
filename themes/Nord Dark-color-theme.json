@@ -789,10 +789,44 @@
 			}
 		},
 		{
+			"name": "[CSS] Constant Font Name",
+			"scope": "support.constant.font-name.css",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[CSS] Constant Property Value",
+			"scope": "support.constant.property-value.css",
+			"settings": {
+				"foreground": "#d08770"
+			}
+		},
+		{
 			"name": "[CSS] Constant Numeric",
 			"scope": "source.css constant.numeric",
 			"settings": {
 				"foreground": "#ebcb8b"
+			}
+		},
+		{
+			"name": "[CSS] Entity Name Tag",
+			"scope": [
+				"source.css entity.name.tag.css",
+				"source.css entity.name.tag.wildcard.css"
+			],
+			"settings": {
+				"foreground": "#88c0d0"
+			}
+		},
+		{
+			"name": "[CSS] Entity Attribute Name",
+			"scope": [
+				"source.css entity.other.attribute-name.class.css",
+				"source.css entity.other.attribute-name.id.css"
+			],
+			"settings": {
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -809,7 +843,7 @@
 				"source.css keyword.control.at-rule.media punctuation.definition.keyword"
 			],
 			"settings": {
-				"foreground": "#d08770"
+				"foreground": "#b48ead"
 			}
 		},
 		{
@@ -829,6 +863,7 @@
 				"source.css keyword.other.unit.vh.css",
 				"source.css keyword.other.unit.vmin.css",
 				"source.css keyword.other.unit.vmax.css",
+				"source.css keyword.other.unit.percentage.css",
 				"source.css keyword.other.unit.%.css"
 			],
 			"settings": {
@@ -839,14 +874,21 @@
 			"name": "[CSS] Punctuation Definition Constant",
 			"scope": "source.css punctuation.definition.constant.css",
 			"settings": {
-				"foreground": "#b48ead"
+				"foreground": "#d08770"
+			}
+		},
+		{
+			"name": "[CSS] Punctuation Definition Entity",
+			"scope": "source.css punctuation.definition.entity.css",
+			"settings": {
+				"foreground": "#88c0d0"
 			}
 		},
 		{
 			"name": "[CSS] Punctuation Definition Keyword",
-			"scope": "source.css punctuation.definition.keyword",
+			"scope": "source.css punctuation.definition.keyword.css",
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#b48ead"
 			}
 		},
 		{
@@ -1510,6 +1552,13 @@
 			}
 		},
 		{
+			"name": "[Rust] Interpolation Variable",
+			"scope": "source.rust meta.interpolation",
+			"settings": {
+				"foreground": "#d8dee9"
+			}
+		},
+		{
 			"name": "[Rust] Traits",
 			"scope": "source.rust entity.name.type.trait",
 			"settings": {
@@ -1521,7 +1570,7 @@
 			"name": "[Rust] Interpolation Bracket Curly",
 			"scope": "source.rust punctuation.definition.interpolation",
 			"settings": {
-				"foreground": "#ebcb8b"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
@@ -1566,7 +1615,7 @@
 				"source.css.scss punctuation.definition.interpolation.end.bracket.curly"
 			],
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d8dee9"
 			}
 		},
 		{
