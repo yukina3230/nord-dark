@@ -29,7 +29,7 @@
 		"commandCenter.background": "#2e3440aa",
 		"commandCenter.debuggingBackground": "#5e81ac4d",
 		"debugConsole.errorForeground": "#bf616a",
-		"debugConsole.infoForeground": "#88c0d0",
+		"debugConsole.infoForeground": "#81a1c1",
 		"debugConsole.sourceForeground": "#616e88",
 		"debugConsole.warningForeground": "#ebcb8b",
 		"debugConsoleInputIcon.foreground": "#81a1c1",
@@ -99,6 +99,8 @@
 		"editorHoverWidget.border": "#3b4252",
 		"editorIndentGuide.activeBackground1": "#616e88",
 		"editorIndentGuide.background1": "#616e8833",
+		"editorInfo.border": "#81a1c14d",
+		"editorInfo.foreground": "#81a1c1",
 		"editorInlayHint.background": "#292e39",
 		"editorInlayHint.foreground": "#81a1c1",
 		"editorLineNumber.activeForeground": "#e5e9f0",
@@ -188,7 +190,7 @@
 		"minimap.background": "#1d2129",
 		"minimap.errorHighlight": "#bf616aee",
 		"minimap.findMatchHighlight": "#d08770ee",
-		"minimap.infoHighlight": "#5e81acee",
+		"minimap.infoHighlight": "#81a1c1ee",
 		"minimap.selectionHighlight": "#5e81acee",
 		"minimap.warningHighlight": "#ebcb8bee",
 		"minimapGutter.addedBackground": "#a3be8c",
@@ -282,7 +284,6 @@
 		"tab.unfocusedActiveBorderTop": "#88c0d000",
 		"tab.unfocusedActiveForeground": "#d8dee999",
 		"tab.unfocusedHoverBackground": "#292e3999",
-		"tab.unfocusedHoverBorder": "#88c0d000",
 		"tab.unfocusedInactiveForeground": "#d8dee999",
 		"terminal.ansiBlack": "#292e39",
 		"terminal.ansiBlue": "#81a1c1",
@@ -695,7 +696,7 @@
 			"name": "Token Info",
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#81a1c1"
 			}
 		},
 		{
