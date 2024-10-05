@@ -413,6 +413,7 @@
 				"entity.name.type.enum"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#a3be8c"
 			}
 		},
@@ -431,6 +432,13 @@
 			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#ebcb8b"
+			}
+		},
+		{
+			"name": "Entity Name Function Preprocessor",
+			"scope": "entity.name.function.preprocessor",
+			"settings": {
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -723,10 +731,11 @@
 			}
 		},
 		{
-			"name": "Source Elixir Variable Other",
-			"scope": "source.elixir variable.other",
+			"name": "Variable Enummember",
+			"scope": "variable.other.enummember",
 			"settings": {
-				"foreground": "#d8dee9"
+				"fontStyle": "bold",
+				"foreground": "#88c0d0"
 			}
 		},
 		{
@@ -744,33 +753,40 @@
 			}
 		},
 		{
-			"name": "[C/CPP] Punctuation Separator Pointer-Access",
-			"scope": "punctuation.separator.pointer-access.c",
+			"name": "[C/CPP] Conditional Directive",
+			"scope": [
+				"source.c keyword.control.directive.conditional.c",
+				"source.c punctuation.definition.directive.c",
+				"source.cpp keyword.control.directive.conditional.cpp",
+				"source.cpp punctuation.definition.directive.cpp"
+			],
 			"settings": {
-				"foreground": "#81a1c1"
+				"fontStyle": "bold",
+				"foreground": "#b48ead"
+			}
+		},
+		{
+			"name": "[C/CPP] Entity Name Scope-Resolution",
+			"scope": "source.cpp entity.name.scope-resolution.cpp",
+			"settings": {
+				"foreground": "#a3be8c"
 			}
 		},
 		{
 			"name": "[C/CPP] Meta Preprocessor Include",
 			"scope": [
-				"source.c meta.preprocessor.include",
-				"source.c string.quoted.other.lt-gt.include"
+				"source.c meta.preprocessor.include.c",
+				"source.c string.quoted.other.lt-gt.include.c"
 			],
 			"settings": {
-				"foreground": "#81a1c1"
+				"foreground": "#d08770"
 			}
 		},
 		{
-			"name": "[C/CPP] Conditional Directive",
-			"scope": [
-				"source.cpp keyword.control.directive.conditional.cpp",
-				"source.cpp punctuation.definition.directive.cpp",
-				"source.c keyword.control.directive.conditional.c",
-				"source.c punctuation.definition.directive.c"
-			],
+			"name": "[C/CPP] Punctuation Separator Pointer-Access",
+			"scope": "source.c punctuation.separator.pointer-access.c",
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#b48ead"
+				"foreground": "#81a1c1"
 			}
 		},
 		{
@@ -924,71 +940,6 @@
 		{
 			"name": "[Dart] String Interpolated Expression",
 			"scope": "source.dart string.interpolated.expression.dart",
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[diff] Meta Range Context",
-			"scope": "source.diff meta.diff.range.context",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[diff] Meta Header From-File",
-			"scope": "source.diff meta.diff.header.from-file",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[diff] Punctuation Definition From-File",
-			"scope": "source.diff punctuation.definition.from-file",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[diff] Punctuation Definition Range",
-			"scope": "source.diff punctuation.definition.range",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[diff] Punctuation Definition Separator",
-			"scope": "source.diff punctuation.definition.separator",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[Elixir](JakeBecker.elixir-ls) module names",
-			"scope": "entity.name.type.module.elixir",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
-			"name": "[Elixir](JakeBecker.elixir-ls) module attributes",
-			"scope": "variable.other.readwrite.module.elixir",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[Elixir](JakeBecker.elixir-ls) atoms",
-			"scope": "constant.other.symbol.elixir",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[Elixir](JakeBecker.elixir-ls) modules",
-			"scope": "variable.other.constant.elixir",
 			"settings": {
 				"foreground": "#d8dee9"
 			}
@@ -1466,65 +1417,6 @@
 			],
 			"settings": {
 				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[Perl] Perl Sigils",
-			"scope": "source.perl punctuation.definition.variable",
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[PHP] Meta Function-Call Object",
-			"scope": [
-				"source.php meta.function-call",
-				"source.php meta.function-call.object"
-			],
-			"settings": {
-				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[Python] Decorator",
-			"scope": [
-				"source.python entity.name.function.decorator",
-				"source.python meta.function.decorator support.type"
-			],
-			"settings": {
-				"foreground": "#d08770"
-			}
-		},
-		{
-			"name": "[Python] Function Call",
-			"scope": "source.python meta.function-call.generic",
-			"settings": {
-				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[Python] Support Type",
-			"scope": "source.python support.type",
-			"settings": {
-				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[Python] Function Parameter",
-			"scope": [
-				"source.python variable.parameter.function.language"
-			],
-			"settings": {
-				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[Python] Function Parameter Special",
-			"scope": [
-				"source.python meta.function.parameters variable.parameter.function.language.special.self"
-			],
-			"settings": {
-				"foreground": "#81a1c1"
 			}
 		},
 		{
