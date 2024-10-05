@@ -438,7 +438,7 @@
 			"name": "Entity Name Function Preprocessor",
 			"scope": "entity.name.function.preprocessor",
 			"settings": {
-				"foreground": "#88c0d0"
+				"foreground": "#ebcb8b"
 			}
 		},
 		{
@@ -735,7 +735,7 @@
 			"scope": "variable.other.enummember",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#88c0d0"
+				"foreground": "#a3be8c"
 			}
 		},
 		{
@@ -787,6 +787,13 @@
 			"scope": "source.c punctuation.separator.pointer-access.c",
 			"settings": {
 				"foreground": "#81a1c1"
+			}
+		},
+		{
+			"name": "[C/CPP] Storage Type Built-In Primitive",
+			"scope": "source.c storage.type.built-in.primitive.c",
+			"settings": {
+				"foreground": "#88c0d0"
 			}
 		},
 		{
