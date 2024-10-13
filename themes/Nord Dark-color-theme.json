@@ -386,23 +386,19 @@
 			}
 		},
 		{
+			"name": "Entity Name Type",
+			"scope": "entity.name.type",
+			"settings": {
+				"foreground": "#a3be8c"
+			}
+		},
+		{
 			"name": "Entity Name Class/Type",
 			"scope": [
 				"entity.name.class",
 				"entity.name.type.class"
 			],
 			"settings": {
-				"foreground": "#a3be8c"
-			}
-		},
-		{
-			"name": "Entity Name Interface/Type",
-			"scope": [
-				"entity.name.interface",
-				"entity.name.type.interface"
-			],
-			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#a3be8c"
 			}
 		},
@@ -418,10 +414,31 @@
 			}
 		},
 		{
+			"name": "Entity Name Interface/Type",
+			"scope": [
+				"entity.name.interface",
+				"entity.name.type.interface"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#a3be8c"
+			}
+		},
+		{
 			"name": "Entity Name Parameter/Type",
 			"scope": [
 				"entity.name.parameter",
 				"entity.name.type.parameter"
+			],
+			"settings": {
+				"foreground": "#a3be8c"
+			}
+		},
+		{
+			"name": "Entity Name Struct/Type",
+			"scope": [
+				"entity.name.struct",
+				"entity.name.type.struct"
 			],
 			"settings": {
 				"foreground": "#a3be8c"
@@ -1426,13 +1443,6 @@
 			}
 		},
 		{
-			"name": "[Rust] Entity types",
-			"scope": "source.rust entity.name.type",
-			"settings": {
-				"foreground": "#a3be8c"
-			}
-		},
-		{
 			"name": "[Rust] Macro",
 			"scope": "source.rust meta.macro entity.name.function",
 			"settings": {
@@ -1456,13 +1466,6 @@
 			"scope": "source.rust meta.interpolation",
 			"settings": {
 				"foreground": "#d8dee9"
-			}
-		},
-		{
-			"name": "[Rust] Struct",
-			"scope": "source.rust entity.name.type.struct",
-			"settings": {
-				"foreground": "#a3be8c"
 			}
 		},
 		{
@@ -1586,22 +1589,6 @@
 			],
 			"settings": {
 				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[TypeScript] Type/Class",
-			"scope": [
-				"source.ts support.class",
-				"source.ts support.type",
-				"source.ts entity.name.type",
-				"source.ts entity.name.class",
-				"source.tsx support.class",
-				"source.tsx support.type",
-				"source.tsx entity.name.type",
-				"source.tsx entity.name.class"
-			],
-			"settings": {
-				"foreground": "#a3be8c"
 			}
 		},
 		{
