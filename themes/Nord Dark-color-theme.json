@@ -30,7 +30,7 @@
 		"commandCenter.debuggingBackground": "#5e81ac4d",
 		"debugConsole.errorForeground": "#bf616a",
 		"debugConsole.infoForeground": "#81a1c1",
-		"debugConsole.sourceForeground": "#616e88",
+		"debugConsole.sourceForeground": "#8fbcbb",
 		"debugConsole.warningForeground": "#ebcb8b",
 		"debugConsoleInputIcon.foreground": "#81a1c1",
 		"debugExceptionWidget.background": "#bf616a4d",
@@ -39,10 +39,8 @@
 		"descriptionForeground": "#d8dee9",
 		"diffEditor.insertedLineBackground": "#a3be8c33",
 		"diffEditor.insertedTextBackground": "#a3be8c66",
-		"diffEditor.insertedTextBorder": "#a3be8c",
 		"diffEditor.removedLineBackground": "#bf616a33",
 		"diffEditor.removedTextBackground": "#bf616a66",
-		"diffEditor.removedTextBorder": "#bf616a",
 		"disabledForeground": "#d8dee999",
 		"dropdown.background": "#292e39",
 		"dropdown.border": "#292e39",
@@ -106,7 +104,7 @@
 		"editorLineNumber.activeForeground": "#e5e9f0",
 		"editorLineNumber.dimmedForeground": "#78849b",
 		"editorLineNumber.foreground": "#78849b",
-		"editorLink.activeForeground": "#8fbcbb",
+		"editorLink.activeForeground": "#88c0d0",
 		"editorOverviewRuler.addedForeground": "#a3be8c",
 		"editorOverviewRuler.border": "#292e39",
 		"editorOverviewRuler.currentContentForeground": "#292e39",
@@ -116,11 +114,11 @@
 		"editorOverviewRuler.incomingContentForeground": "#292e39",
 		"editorOverviewRuler.infoForeground": "#81a1c1",
 		"editorOverviewRuler.modifiedForeground": "#ebcb8b",
-		"editorOverviewRuler.rangeHighlightForeground": "#88c0d066",
-		"editorOverviewRuler.selectionHighlightForeground": "#88c0d066",
+		"editorOverviewRuler.rangeHighlightForeground": "#8fbcbb66",
+		"editorOverviewRuler.selectionHighlightForeground": "#8fbcbb66",
 		"editorOverviewRuler.warningForeground": "#ebcb8b",
-		"editorOverviewRuler.wordHighlightForeground": "#88c0d066",
-		"editorOverviewRuler.wordHighlightStrongForeground": "#88c0d066",
+		"editorOverviewRuler.wordHighlightForeground": "#8fbcbb66",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#8fbcbb66",
 		"editorRuler.foreground": "#434c5e",
 		"editorStickyScroll.shadow": "#00000099",
 		"editorStickyScrollHover.background": "#434c5e66",
@@ -203,7 +201,7 @@
 		"notificationCenter.border": "#3b4252",
 		"notificationCenterHeader.background": "#1d2129",
 		"notificationCenterHeader.foreground": "#d8dee9",
-		"notificationLink.foreground": "#8fbcbb",
+		"notificationLink.foreground": "#88c0d0",
 		"notificationToast.border": "#3b4252",
 		"notifications.background": "#1d2129",
 		"notifications.border": "#3b4252",
@@ -307,8 +305,8 @@
 		"textBlockQuote.background": "#434c5eaa",
 		"textBlockQuote.border": "#81a1c1",
 		"textCodeBlock.background": "#616e884d",
-		"textLink.activeForeground": "#8fbcbb",
-		"textLink.foreground": "#8fbcbb",
+		"textLink.activeForeground": "#88c0d0",
+		"textLink.foreground": "#88c0d0",
 		"textPreformat.foreground": "#d8dee9",
 		"textSeparator.foreground": "#eceff4",
 		"titleBar.activeBackground": "#1d2129",
@@ -1057,7 +1055,7 @@
 				"source.java punctuation.definition.tag.end.javadoc"
 			],
 			"settings": {
-				"foreground": "#616e887e"
+				"foreground": "#d8dee97e"
 			}
 		},
 		{
@@ -1263,20 +1261,6 @@
 			}
 		},
 		{
-			"name": "[INI] Entity Name Section Group-Title",
-			"scope": "source.properties entity.name.section.group-title.ini",
-			"settings": {
-				"foreground": "#88c0d0"
-			}
-		},
-		{
-			"name": "[INI] Punctuation Separator Key-Value",
-			"scope": "source.properties punctuation.separator.key-value.ini",
-			"settings": {
-				"foreground": "#81a1c1"
-			}
-		},
-		{
 			"name": "[Markdown] Markup Bold",
 			"scope": "text.html.markdown markup.bold",
 			"settings": {
@@ -1344,7 +1328,7 @@
 			"name": "[Markdown] Markup Quote Punctuation Definition",
 			"scope": "text.html.markdown markup.quote",
 			"settings": {
-				"foreground": "#616e887e"
+				"foreground": "#d8dee97e"
 			}
 		},
 		{
